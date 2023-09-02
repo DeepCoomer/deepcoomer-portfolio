@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/blogs/evolution-of-javascript",
+      "destination": "/components/EvolutionOfJs.tsx",
+      "permanent": true
+    }
+  ]
+}
