@@ -1,6 +1,6 @@
 import { useViewportSize } from "@mantine/hooks";
 import jsimg from "./jsimg.png";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Blogs = () => {
   const { width } = useViewportSize();
@@ -9,9 +9,9 @@ const Blogs = () => {
       <span className="text-gray">What's on my mind</span>
       <h1>Blogs</h1>
       <div className="container">
-        <a
-          href={"/blogs/evolution-of-javascript"}
-          target="_blank"
+        <Link
+          to={"/blogs/evolution-of-javascript"}
+          // target="_blank"
           style={{ textDecoration: "none", color: "white" }}
         >
           <div className="blog-box">
@@ -52,7 +52,7 @@ const Blogs = () => {
               <p>26-Aug-2023 &nbsp; <span>7 min read</span> </p>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
     </section>
   );
