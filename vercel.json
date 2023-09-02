@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/blogs/evolution-of-javascript",
-      "destination": "/components/EvolutionOfJs.tsx",
+      "destination": "/src/components/EvolutionOfJs.tsx",
       "permanent": true
     }
   ]
